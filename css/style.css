@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+button {
+    padding: 0.75em;
+    background-color: rgb(107, 187, 253);
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgba(107, 187, 253, 0.75);
+    cursor: pointer;
+    text-decoration: underline;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+div{
+    padding: 1em;
+}
+
+button{
+    margin: 0 1em;
+}
+
+input {
+    background-color: aliceblue;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+select {
+    background-color: aliceblue;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+#myStudentId {
+    font-size: 1.2rem;
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+#images{
+    width: 25vw;
+    aspect-ratio: 1;
+    border: ridge 10px black;
+}
