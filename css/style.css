@@ -45,6 +45,7 @@ select {
     border: 1px solid black;
     padding: 8px;
     border-radius: 4px;
+
 }
 
 #myStudentId {
@@ -57,4 +58,8 @@ select {
     width: 25vw;
     aspect-ratio: 1;
     border: ridge 10px black;
+}
+
+select:hover {
+    cursor: pointer;
 }
