@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", () => {
 // constants for query selector
 const studentIDPara = document.getElementById("myStudentId");
 const customColor = document.querySelector(".custColor");
@@ -85,3 +86,4 @@ imageSelect.addEventListener("click", addList);
 
 // event listeners for on change event of select
 imageSelect.addEventListener("change", changeImage);
+});
